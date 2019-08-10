@@ -1,0 +1,48 @@
+﻿<Page
+    x:Class="App4.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App4"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+
+
+        <Button x:ConnectionId='2' x:Name="BackButton"                    Style="{StaticResource NavigationBackButtonNormalStyle}" RenderTransformOrigin="0.4,0.4" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <TextBlock HorizontalAlignment="Left" Margin="403,357,0,0" Text="iPhone Model" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36" Height="53" Width="245"/>
+        <TextBlock x:ConnectionId='3' x:Name="textBlock" HorizontalAlignment="Left" Margin="403,483,0,0" Text="Part Name" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36" Height="53" Width="184"/>
+        <TextBlock x:ConnectionId='4' x:Name="textBlock1" HorizontalAlignment="Left" Margin="403,416,0,0" Text="Category" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36" Height="53" Width="159"/>
+        <TextBlock x:ConnectionId='5' x:Name="textBlock2" HorizontalAlignment="Left" Margin="403,542,0,0" Text="SKU" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36" Height="53" Width="71"/>
+        <TextBlock x:ConnectionId='6' x:Name="textBlock3" HorizontalAlignment="Left" Margin="403,603,0,0" Text="Number in Stock" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36" Height="53" Width="293"/>
+        <TextBlock x:ConnectionId='7' x:Name="textBlock4" HorizontalAlignment="Left" Margin="415,117,0,0" Text="Create New Inventory Part" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="58" Height="79" Width="689"/>
+        <TextBox x:ConnectionId='8' x:Name="textBox1" HorizontalAlignment="Left" Text="" VerticalAlignment="Top" Margin="750,483,0,0" Width="380" Height="53"/>
+        <TextBox x:ConnectionId='9' x:Name="textBox2" HorizontalAlignment="Left" Margin="750,542,0,0" Text="" VerticalAlignment="Top" Width="380" Height="53"/>
+        <TextBox x:ConnectionId='10' x:Name="textBox3" HorizontalAlignment="Left" Margin="750,603,0,0" Text="" VerticalAlignment="Top" Width="380" Height="53"/>
+        <Button x:ConnectionId='11' x:Name="Submit" Content="Submit" Margin="1027,696,0,0" VerticalAlignment="Top"                      Height="55" Width="108"/>
+        <ComboBox x:ConnectionId='12' x:Name="comboBox1" Margin="750,357,0,0" Width="380" Height="53">
+            <ComboBoxItem Content="iPhone 5" Height="50" Margin="0,0,0,0" Width="229"/>
+            <ComboBoxItem Content="iPhone 5s" Height="50" Margin="0,0,0,0" Width="229"/>
+            <ComboBoxItem Content="iPhone 6" Height="50" Margin="0,0,0,0" Width="229"/>
+            <ComboBoxItem Content="iPhone 6s" Height="50" Margin="0,0,0,0" Width="229"/>
+            <ComboBoxItem Content="iPhone 7" Height="50" Margin="0,0,0,0" Width="229"/>
+            <ComboBoxItem Content="iPhone 8" Height="50" Margin="0,0,0,0" Width="229"/>
+            <ComboBoxItem Content="iPhone X" Height="50" Margin="0,0,0,0" Width="229"/>
+            <ComboBoxItem Content="iPhone Xs" Height="50" Margin="0,0,0,0" Width="229"/>
+        </ComboBox>
+        <ComboBox x:ConnectionId='13' x:Name="comboBox" Margin="750,416,0,0" Width="380" Height="53">
+            <ComboBoxItem Content="Screen Assembly" Height="50" Margin="0,0,0,0" Width="229"/>
+            <ComboBoxItem Content="Body" Height="50" Margin="0,0,0,0" Width="229"/>
+            <ComboBoxItem Content="Internal Parts" Height="50" Margin="0,0,0,0" Width="229"/>
+            <ComboBoxItem Content="Accessories" Height="50" Margin="0,0,0,0" Width="229"/>
+        </ComboBox>
+
+
+
+
+
+    </Grid>
+</Page>
+

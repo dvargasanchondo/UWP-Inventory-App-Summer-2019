@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <UseSimulator>false</UseSimulator>
+    <DeviceId>30F105C9-681E-420b-A277-7C086EAD8A4E</DeviceId>
+    <UseEmulator>false</UseEmulator>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Source>C:\Users\asahe\OneDrive\Desktop\image2.png</Source>
+    <SmallTileSource>C:\Users\asahe\OneDrive\Desktop\image2.png</SmallTileSource>
+    <MediumTileSource>C:\Users\asahe\OneDrive\Desktop\image2.png</MediumTileSource>
+    <WideTileSource>C:\Users\asahe\OneDrive\Desktop\image2.png</WideTileSource>
+    <LargeTileSource>C:\Users\asahe\OneDrive\Desktop\image2.png</LargeTileSource>
+    <AppIconSource>C:\Users\asahe\OneDrive\Desktop\image2.png</AppIconSource>
+    <SplashScreenSource>C:\Users\asahe\OneDrive\Desktop\image2.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\asahe\OneDrive\Desktop\image2.png</PackageLogoSource>
+  </PropertyGroup>
+</Project>

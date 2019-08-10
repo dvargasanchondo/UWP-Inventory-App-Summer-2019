@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="App4.UpdateStock"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App4"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="200"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="35"/>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="TextTitle" Grid.Column="1" Grid.Row="0" Text="Update Inventory" FontSize="24"></TextBlock>
+        <TextBox x:Name="NumberStock" Grid.Column="1" Grid.Row="1" PlaceholderText="Number in Stock"></TextBox>
+        <Button x:Name="Cancel" Grid.Column="1" Grid.Row="2" Content="Cancel" HorizontalAlignment="Center"/>
+        <Button x:Name="Update" Grid.Column="1" Grid.Row="2" Content="Update" HorizontalAlignment="Right" Click="Update_Click"/>
+    </Grid>
+</Page>
